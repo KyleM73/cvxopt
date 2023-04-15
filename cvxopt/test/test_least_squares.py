@@ -1,7 +1,6 @@
 import torch
 import cvxopt
 
-
 A = torch.tensor([[2,1],[0,1]])
 b = torch.tensor([[2],[1]])
 w = torch.tensor([[1,0],[0,1]])
